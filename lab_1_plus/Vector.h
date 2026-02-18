@@ -10,11 +10,11 @@ private:
     public:
     Vector(double xCoord, double yCoord);
 
-    double getX();
-    double getY();
+    double getX() const;
+    double getY() const;
 
-    double calculateRadius();
-    double calculateAngle();
+    double calculateRadius() const;
+    double calculateAngle() const;
 };
 
 

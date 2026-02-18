@@ -6,19 +6,19 @@ Vector::Vector(double xCoord, double yCoord) {
     y = yCoord;
 }
 
-double Vector::getX() {
+double Vector::getX() const {
     return x;
 }
 
-double Vector::getY() {
+double Vector::getY() const {
     return y;
 }
 
-double Vector::calculateRadius() {
+double Vector::calculateRadius() const {
     return std::sqrt(x*x + y*y);
 }
 
-double Vector::calculateAngle() {
+double Vector::calculateAngle() const {
     return std::atan2(y, x);
 }
 
