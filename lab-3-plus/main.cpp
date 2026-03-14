@@ -58,7 +58,7 @@ int main() {
     K1 = K2 / K3;
     std::cout << "\nK1 після K1 = K2 / K3:\n";
     K1.printData();
-    
+
     Square K_sum = K1 + K2 + K3;
     std::cout << "\nРезультат ланцюжкового додавання (K1 + K2 + K3):\n";
     K_sum.printData();
