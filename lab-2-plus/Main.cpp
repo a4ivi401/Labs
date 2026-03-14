@@ -1,14 +1,11 @@
 #include <iostream>
 #include "Vector2D.h"
-#include <Windows.h>
 
 #pragma comment(lib, "Vector2D.lib")
 
 using namespace std;
 
 int main() {
-    SetConsoleCP(CP_UTF8);
-    SetConsoleOutputCP(CP_UTF8);
 
     cout << "--- Тестування класу Vector2D (C++) ---" << endl;
 

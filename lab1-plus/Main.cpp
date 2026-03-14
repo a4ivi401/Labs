@@ -2,7 +2,6 @@
 
 #include <iostream>
 #include <iomanip>
-#include <Windows.h>
 
 #include <math.h>
 #include "Vector.h"
@@ -16,10 +15,6 @@ double toDegrees(double radians) {
 }
 
 int main() {
-
-    SetConsoleCP(CP_UTF8);
-	SetConsoleOutputCP(CP_UTF8);
-
     double inputX, inputY;
 
     cout << "Введіть координату Х: ";
