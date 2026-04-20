@@ -9,9 +9,7 @@ private:
 public:
     Square(double x = 0.0, double y = 0.0, double side = 1.0) : x(x), y(y), side(side) {}
 
-    Square(const Square& other) : x(other.x), y(other.y), side(other.side) {
-        std::cout << "[Викликано конструктор копіювання]\n";
-    }
+    Square(const Square& other) : x(other.x), y(other.y), side(other.side) {}
 
     double getArea() const { return side * side; }
     double getPerimeter() const { return 4 * side; }
